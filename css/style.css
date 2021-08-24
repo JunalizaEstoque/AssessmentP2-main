@@ -18,10 +18,6 @@ a {
     text-align: center;
 }
 
-p {
-    
-}
-
 #home{
     height: 100vh;
     /* overflow: hidden; */
@@ -29,28 +25,10 @@ p {
     flex-direction: column; */
 }
 
-/* Utility Classes */
-.container {
-}
-
-.text-center {
-}
 
 .text-primary {
-    /* float: left; */
     color:yellowgreen;
-    margin-left: 0;
-    
-}
-
-
-.bg-light {
-}
-
-.bg-dark {
-}
-
-.bg-primary {
+    margin-left: 0;  
 }
 
 .l-heading {
@@ -62,7 +40,6 @@ p {
 .m-heading {
     padding-top: 50px;
     padding-bottom: 50px;
-   
 }
 
 .lead {
@@ -71,7 +48,6 @@ p {
     padding-bottom: 50px;
 }
 
-
 .showcase-content a{
     background-color:yellowgreen;
     padding: 10px;
@@ -79,35 +55,9 @@ p {
 }
 
 .py-1 img{
-    max-width: 100px;
-    
-}
-.py-2 {
-}
-.py-3 {
+    max-width: 100px; 
 }
 
-.p-1 {
-}
-.p-2 {
-}
-.p-3 {
-}
-
-.btn {
-}
-
-.btn:hover {
-}
-
-.btn-dark {
-}
-
-.list {
-}
-
-.list li {
-}
 
 /* Navbar */
 #navbar {
@@ -136,12 +86,6 @@ p {
     float: left;
 }
 
-#navbar ul li a {
-}
-
-#navbar ul li a:hover {
-}
-
 #navbar h1{
     padding-top: 20px;
     padding-left: 10px;
@@ -153,7 +97,6 @@ height: 600px;
 text-align: center;
 background: url("../img/main-background.jpg") no-repeat center center/  cover;
 }
-
 
 #showcase .showcase-content {
     padding-top: 200px;
@@ -173,9 +116,6 @@ background: url("../img/main-background.jpg") no-repeat center center/  cover;
     width: 300px;
 }
 
-#what .wi .item {
-}
-
 #what .items .item i {
     background-color: yellowgreen;
     padding: 20px;
@@ -187,9 +127,7 @@ background: url("../img/main-background.jpg") no-repeat center center/  cover;
 display: flex;
 flex-wrap: wrap;
 height: 600px;
-
 }
-
 
 #who .who-img {
     background: url("../img/svg-icon.svg");
@@ -225,16 +163,12 @@ height: 600px;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
-    
 }
 
 #clients{
     height: 300px;
 
 }
-/* .py-1 .container .text-center{
-    margin-top: 50px;
-} */
 
 .bg-light{
     height: 300px;
